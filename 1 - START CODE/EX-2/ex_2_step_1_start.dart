@@ -24,7 +24,7 @@ class _FavoriteCards extends StatefulWidget {
 }
 
 class _FavoriteCardsState extends State<_FavoriteCards> {
-  // List to hold the favorite status of each card
+
   List<bool> favoriteStatus = [false, false, false];
 
   void toggleFavorite(int index) {
